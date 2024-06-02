@@ -1,0 +1,23 @@
+Dark Mode Background: #1A1C24
+Light Mode Background
+    - Darker: #c8c8c8
+    - Lighter: #ededed
+
+Red: #eb3838
+Crimson: #de1f3f
+
+Malachite: #5ae68d
+Turqoise: #2aeba7
+Aqua: #3ef7df
+Light Blue: #36daff
+Blue: #1ca0ff
+Dark Blue: #1d4ef0
+
+Blurple: #5d2dfa
+Light Purple: #8952e3
+Purple: #740ee8
+Purple2: #a211f0
+Magenta: #bf2cf5
+Magenta2: #e82edf
+Hot Pink: #ed1cb9
+Pink: #ed2b96

@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "types": ["cypress", "./support"],
+    "types": ["cypress"],
     "lib": ["ES2022", "dom"]
   },
-  "include": ["**/*.ts"]
+  "include": [
+    "**/*.ts",
+    "../cypress.config.ts"
+  ],
+  "exclude": []
 }
