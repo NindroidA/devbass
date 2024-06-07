@@ -13,6 +13,26 @@ export const routes: Routes = [
         canMatch: [authGuard()],
     },
     {
+        path: 'dashboard',
+        loadChildren: async () => (await import('@pages/dashboard')).routes,
+        canMatch: [authGuard()],
+    },
+    {
+        path: 'search',
+        loadChildren: async () => (await import('@pages/search')).routes,
+        canMatch: [authGuard()],
+    },
+    {
+        path: 'database',
+        loadChildren: async () => (await import('@pages/database')).routes,
+        canMatch: [authGuard()],
+    },
+    {
+        path: 'upload',
+        loadChildren: async () => (await import('@pages/upload')).routes,
+        canMatch: [authGuard()],
+    },
+    {
         path: 'users/:username',
         loadChildren: async () => (await import('@pages/user')).routes,
         canMatch: [authGuard()],

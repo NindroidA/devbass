@@ -1,8 +1,12 @@
-<app-sidebar></app-sidebar>
-<app-navbar></app-navbar>
+<div class="flex min-h-screen">
+    <app-sidebar class="fixed top-0 left-0 h-screen z-10"></app-sidebar>
+    <div class="flex-1 ml-60 flex flex-col">
+        <app-navbar></app-navbar>
 
-<main class="container flex-1 py-6 align-middle overflow-x-hidden">
-    <ng-content></ng-content>
-</main>
+        <main class="container py-6 overflow-x-hidden flex-grow">
+            <ng-content></ng-content>
+        </main>
 
-<app-footer></app-footer>
+        <app-footer></app-footer>
+    </div>
+</div>

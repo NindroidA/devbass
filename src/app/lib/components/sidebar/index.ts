@@ -1,6 +1,6 @@
 export const sidebarData = [
     {
-        routeLink: 'home',
+        routeLink: 'dashboard',
         icon: 'icon-[ion--home]',
         label: 'Home'
     },

@@ -52,6 +52,12 @@ export default {
                     dark: '#bf2cf5',
                 },
                 'pink': '#ed2b96',
+                'logo': {
+                    black: '09040b',
+                    blue: '26d0ee',
+                    pink: 'da3db7',
+                    purple: '5b2ea6',
+                }
             },
         },
     },
